@@ -15,15 +15,18 @@
     font-size: 1.1em !important;
 }
 
+/*=======nav bar gallery,services,signup=====*/
+
+
 /*=======carousel img=====*/
 .carousel-inner img{
     width:100%;
-    height:400px;
+    height:500px;
 }
 
 .carousel-caption {
     position:absolute;
-    top:50%;
+    top:65%;
     transform: translateY(-50%);
 }
 
@@ -109,6 +112,16 @@
         margin:20px;    
     }   
 
+/*=======social links footer=====*/
+    .social1 {
+        
+         display: inline-block;
+         font-size: 55px;
+         padding:-5px;
+         margin: 2px;  
+    }
+
+
 /*=======welcome section=====*/
     .welcome {
         width:75%;
@@ -140,17 +153,97 @@ body {
     margin:0;
 }
 
-/*======footer===*/
+/*=======gallery=====*/
 
-.f h3 p a {
-    border-top: 1px solid #b4b4b4;
-    width:95%;
-    margin-top:.1rem;
-    margin-bottom:1rem;
-    text-align:center;
+.gallery {
+    width:1280px;
+    
+    margin:70px auto 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.gallery .box {
+    position:relative;
+    width:300px;
+    height:300px;
+    background: #fafafa;
+    margin:10px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: #8a8686;
+}
+/*======footer===*/
 
+.footer {
+    background:#c8232c;
+     margin:0 auto; 
+     width:100%; 
+     padding-top: 2rem;
+     color: #fff;
+}
+
+/*======gallery.html===*/
+.gallery .box {
+    position: relative;
+    overflow: hidden;
+    width:500px;
+    
+}
+
+.gallery .box .imgBox img {
+max-width:100%;
+height: 350px;
+transition: transform 2s;
+}
+
+.gallery .box:hover .imgBox img {
+    transform: scale(1.2)
+}
+
+.gallery .box .details {
+    position: absolute;
+    top: 10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.gallery .box:hover .details{
+    transform: scaleY(1);
+}
+
+.gallery .box .details .content {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color: floralwhite;
+}
+
+.gallery .box .details .content h2 {
+    margin:0;
+    padding:0;
+    font-size:30px;
+    color:#c8232c
+}
+
+.gallery .box .details .content p {
+    margin:10px 0 0;
+    padding:0;
+}
+/*======footer gallery,services,signup===*/
+
+.footer1 {
+    background:#f8f8f8;
+    padding-top:10px;
+    padding-bottom:10px;
+}
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width:576px) {... }
 
