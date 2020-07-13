@@ -105,6 +105,8 @@
     list-style-type: none;
     display: flex;
     font-size: 55px;
+    text-align: center;
+    justify-content: center;
 }
 
 .fa-facebook {
@@ -343,12 +345,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    max-width: 300px;
+   
 }
-
+.card {
+    max-width:300px;
+    margin:10px;
+}
 /*======signup===*/
 #signup {
-    background-image: url(.images/signin1.jpg);
+    background-image: url(../images/signin1.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: "Roboto", sans-serif;
@@ -421,14 +426,51 @@ small {
 .here {
     margin-bottom: 40px;
 }
+
+/*--------comment-----
+Extra (xl) large devices (large desktops, 1200px and up)
+*/
+@media screen and (max-width: 1200px) {
+    .footer {
+        width: 100%;
+    }
+    .footer .col-md-4 {
+        text-align: center;
+    }
+}
+
+/*--------comment-----
+Large (lg) devices (desktops, 992px and up)
+*/
+@media screen and (max-width: 992px) {
+    .footer {
+        width: 100%;
+    }
+    .footer .col-md-4 {
+        text-align: center;
+    }
+}
+
+/*--------comment-----
+Medium (md) devices (tablets, 768px and up)
+*/
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+        
+    }
+    .col-md-4 {
+        text-align: center;
+    }
+}
+
 /*--------comment-----
 Small (sm) devices (landscape phones, 576px and up)
 */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .footer {
         width: 100%;
-        color:#0000;
-        background: #0000;
+        
     }
     .footer .col-md-4 {
         text-align: center;
@@ -439,37 +481,6 @@ Small (sm) devices (landscape phones, 576px and up)
     }
 }
 
-/*--------comment-----
-Medium (md) devices (tablets, 768px and up)
-*/
-@media screen and (min-width: 768px) {
-    .footer {
-        width: 100%;
-        
-    }
-    .col-md-4 {
-        text-align: center;
-    }
-}
-/*--------comment-----
-Large (lg) devices (desktops, 992px and up)
-*/
-@media screen and (min-width: 992px) {
-    .footer {
-        width: 100%;
-    }
-    .footer .col-md-4 {
-        text-align: center;
-    }
-}
-/*--------comment-----
-Extra (xl) large devices (large desktops, 1200px and up)
-*/
-@media screen and (min-width: 1200px) {
-    .footer {
-        width: 100%;
-    }
-    .footer .col-md-4 {
-        text-align: center;
-    }
-}
+
+
+
