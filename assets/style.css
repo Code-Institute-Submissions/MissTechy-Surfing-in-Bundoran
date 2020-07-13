@@ -276,6 +276,10 @@ body {
     color: #fff;
 }
 
+.footer .col-md-4 {
+    text-align:center;
+} 
+
 /*======services.html===*/
 .gallery {
     padding-left: 0;
@@ -423,13 +427,15 @@ Small (sm) devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) {
     .footer {
         width: 100%;
+        color:#0000;
+        background: #0000;
     }
     .footer .col-md-4 {
         text-align: center;
     }
 
-    .social a {
-        font-size: 10px;
+    .social  {
+        font-size:20px;
     }
 }
 
@@ -439,6 +445,7 @@ Medium (md) devices (tablets, 768px and up)
 @media screen and (min-width: 768px) {
     .footer {
         width: 100%;
+        
     }
     .col-md-4 {
         text-align: center;
