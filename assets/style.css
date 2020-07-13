@@ -356,14 +356,6 @@ transition: transform 2s;
 }
 
 
-/*======footer gallery,services,signup===*/
-
-.container-fluid .footer1 {
-    background:#f8f8f8;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-
 /*======signup===*/
  #signup{
     background-image: url(.images/signin1.jpg);
@@ -440,14 +432,55 @@ small {
 .here {
     margin-bottom: 40px;
 }
+/*--------comment-----
 Small (sm) devices (landscape phones, 576px and up)
-@media (min-width:576px) {... }
+*/
+@media screen and (min-width: 576px) {
+    .footer { 
+        width:100%;  
+    }
+    .footer .col-md-4 {
+        text-align: center;  
+    }
 
+    .social a{
+        font-size:10px;
+        
+    }
+ }
+
+ /*--------comment-----
 Medium (md) devices (tablets, 768px and up)
-@media (min-width:768px) {... }
+*/
+@media screen and (min-width: 768px) {
+    .footer { 
+        width:100%;  
+    }
+    .col-md-4 {
+        text-align: center;  
+    }
 
+
+ }
+/*--------comment-----
 Large (lg) devices (desktops, 992px and up)
-@media (min-width:992px and up) {... }
-
+*/
+@media screen and (min-width: 992px) {
+    .footer { 
+        width:100%;  
+    }
+    .footer .col-md-4 {
+        text-align: center;  
+    }
+}
+/*--------comment-----
 Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width:1200px and up) {... }
+*/
+@media screen and (min-width: 1200px) {
+    .footer { 
+        width:100%;  
+    }
+    .footer .col-md-4 {
+        text-align: center;  
+    }
+ }
