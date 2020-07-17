@@ -34,7 +34,7 @@ Tools used:
 
 
 Features
-Menu, Carousel img, Jumbotron - Menu Page
+Menu, Carousel img, Jumbotron, About Us and Footer - Menu Page
 -I thought this 3 work nicely together. 
 The Menu expands when the screen is large and all pages get inside the Menu square whn the screen size is small. I was looking for a minimalist approach in this case.
 
@@ -45,30 +45,31 @@ All seams statc but the links redirect users to emotional trigers and that was m
 Jumbotron - Menu Page
 The large icons suppose to encourage the user to click on them and find more proof of fun after clicking on the video button. The Jumbotron bar remains the same size on each page so the user can interact with it antime he wants. Large enaough to not miss it.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+About Us - Menu Page
+Is a short introduction about Bundoran Surf team acompanied by a Sea Sessions link which takes the user to the Festival's website.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Footer - Menu Page
+Encapsulates the partners, opening hours and address and it is present in the same format on all the pages. From a UX perspective it looks predictable in case the user wants to search for the information. The partner logos are actually links to the relevant websites, which also can be seen as proof of Bundoran Surf CO. activities and reviews over the years.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Menu, Carousel img, Jumbotron,Footer - Gallery Page
+All of website's parts are sesponsive to different devices and they have the same scope above mentioned. The only difference is that the gallery has more than 3 pictures. From a UX point of view this can be catching for the user alongside with the links from Home. As all know human brain needs a pause from reading and searching, therefore that pause would be glancing over the gallery's slide show.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Menu, View our shop bar, Image gallery, Price cards, Jumbotron,Footer - Services Page
+Menu, Jumbotron and Footer is the same and has the same role as in the first 2 pages. 
+View our shop bar was intended to be black and abstract from the light colors of the website. Of corse another opton would have been to add another carousel images with some items from the shop. However that would made the page crowded so I figured out that a noticeable suggestion would be a black bar just in case there are surf equipment fanatics.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The image gallery is suggestive for all that Bundoran Surf Co offers as packages and services. If you hover over each image the title and text are suggesting a short and concise description of the services free from discrimination of gender, age, nationality and the quality of free time. Naturally, users look for what they would enjoy to do then they ask about the price. Therefore under the moving gallery images comes the section with the prices with extra info.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Menu, sign in & sign up, Jumbotron,Footer - Sign in Page
+Menu, Jumbotron and Footer is the same and has the same role as in the first 3 pages.
+For sign in & sign in I used bootstrap the input from user will be white as well as the existing guiding text for what to input. The construction of this page it is quite simple seasoned with a background image with a scenary from Sleaves League, which is 1h from Bundoran.
+Sign in & sign in encourages the users to add themselves to clients list so they would be able to have access to more info and the freedom of choosing a package by tickingone of the price cards.
+
+In conclusion the logic behind this website is to get any user interested to sign in and sign up for more information for themselves. Also from a sales and marketing point ov view this website is aiming to build a large list of prospects, for building study cases, reviews, improve services, offer support, mass services sale. The website answers to the following questions: what is this?; how does it work?; how can I find more people like me who does this?; where I can find the location and contact details?; are their services flexible and what is the price?; is it simple and predictable?; is it pleasant to the eye?; would it be easy to find the information if I came back on this website?; where can I leave reviews/complaints?; can I sign up?; can I follow them on social media?;
+
 
 Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
+Submiting the empty form-page has no 
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -89,8 +90,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+One review, services, packages and prices were copied from Bundoran Surf website. The first 2 reviews are from a friend and from me.
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Most of photos are taken from Bundoran instagram and website, as well as from my own instagram.
+
+Acknowledgements for technical hiccups.
+(Idea for project theme and subject was mine)
+Mentor:Akshat Garg
+Student Support
+Tutor: Simen Daehli, Anna_ci, Claire_ci
+Alumni:Marcel777,
