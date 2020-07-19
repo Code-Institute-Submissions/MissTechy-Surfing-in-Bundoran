@@ -69,30 +69,27 @@ In conclusion the logic behind this website is to get any user interested to sig
 
 
 Contact form:
-Submiting the empty form-page has no 
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Submiting the empty form from sign up page has no link attached to it. It is innert.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I used validator to find errors and the most frequent ones were adding extra or wrong attributes, as well as forgeting commas and closed brackets.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Website is working without any problems on FireFox, Internet Explorer and Chrome. Also it is responsive for small, medium, large and extra large devices.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+My workspace is called Visual Studio. And my steps of deployment are the following:
+1.Created my project folder called Bundoran Surfing on the local machine and arranged the folders according to the requiremants: 1st project "Surfing in Bundoran" ->folder assets->folder css->file style.css->folder images; under assets folder the following files are created: index.html,gallery.html,services.htmls,signup.html.
+2.I created an account on GITHUB and created a repository for my project. Steps followed:
+hithub account->create new repository->name repository-> set it as public->thick box for initialising the repository with README->click on create repository->Surfing-in -Bundoran repository was created.
+3.Once I created the HTML and CSS files in Visual Studio I used the following steps to push them to GITHUB through my local machine VSC terminal: git status->git add index.html->git commit -m "new commit"->git push. For each new file I used same commands. 
+4.For each changes made in files I used the following commands: git status->git add file name->git commit -m "modified file"->git push.
+5.To make the website live through GITHUB I used the following steps:Surfing in Bundoran repository->settings->scroll down to GITHUB Pages->under source selected master branch from dropdown list->waited for 5min for the background of the link under GITHUB Pages to turn green->green means the website is live and others can see it.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 Credits
 Content
 One review, services, packages and prices were copied from Bundoran Surf website. The first 2 reviews are from a friend and from me.
 Media
-Most of photos are taken from Bundoran instagram and website, as well as from my own instagram.
+Most of photos are taken from Bundoran instagram and website, as well as from my own instagram. All the links are to be found in the begining of README.md.
 
 Acknowledgements for technical hiccups.
 (Idea for project theme and subject was mine)
