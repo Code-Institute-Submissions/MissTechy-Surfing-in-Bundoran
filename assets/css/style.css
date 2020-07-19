@@ -402,6 +402,7 @@ small {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: center;
 }
 
 .col-md-5 {
