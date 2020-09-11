@@ -1,6 +1,7 @@
 SURFING IN BUNDORAN WEBSITE
 View live project here: https://misstechy.github.io/Surfing-in-Bundoran/
 This website is user friendly and interactive for surf lovers. It is predictable, clear, responsive and accesible.
+
 | <img src="assets/images/largescreen.png" width="250"> | <img src="assets/images/ipad.png" width="250"> | <img src="assets/images/phone.png" width="250"> 
 
 I loved the atmosphere, scenary and diversity of people so much that I helped them with organising some trips and also DJ-ing for everyone.
