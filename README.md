@@ -6,7 +6,7 @@ This website is user friendly and interactive for surf lovers. It is predictable
 
 | <img src="assets/images/largescreen.png" width="250"> | <img src="assets/images/ipad.png" width="250"> | <img src="assets/images/phone.png" width="250"> 
 
-             LARGE SCREEN                                             IPAD                                           PHONE
+             LARGE SCREEN                                 IPAD                                   PHONE
 
 
 <b>User Experience(UX)</b>
