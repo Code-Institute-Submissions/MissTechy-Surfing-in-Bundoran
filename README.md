@@ -1,6 +1,7 @@
-"# Surfing-in-Bundoran" 
-https://misstechy.github.io/Surfing-in-Bundoran/
-Loving extreme sports I created a website about Bundoran Surf CO. Surfing was one of the first activities I tried in my first year in Ireland, and it was not the only one booked with Bundoran Surf.
+SURFING IN BUNDORAN WEBSITE
+View live project here: https://misstechy.github.io/Surfing-in-Bundoran/
+This website is user friendly and interactive for surf lovers. It is predictable, clear, responsive and accesible.
+| <img src="assets/css/images/largescreen.png" width="250"> | <img src="assets/css/images/ipad.png" width="250"> | <img src="assets/css/images/phone.png" width="250"> 
 
 I loved the atmosphere, scenary and diversity of people so much that I helped them with organising some trips and also DJ-ing for everyone.
 
