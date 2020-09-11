@@ -1,4 +1,4 @@
-@import url ("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel= "stylesheet");
+@import URL ("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel= "stylesheet");
 
 /*=======nav bar=====*/
 
@@ -95,7 +95,6 @@
 .connect {
     color: rgb(2, 12, 12);
     text-transform: capitalize;
-    text-shadow: rgb(54, 102, 102);
     display: inline-block;
     text-align: center;
     justify-content: center;
@@ -188,7 +187,7 @@
     max-width:350px;
     margin:8px;
     max-height:450px;
-    font-size:13;
+    font-size:13px;
     padding: 5px;
 }
 
@@ -252,7 +251,6 @@ body {
     margin: 5px;
     box-sizing: border-box;
     display: inline-block;
-    box-shadow: lightslategrey;
 }
 /*======footer===*/
 
@@ -402,7 +400,6 @@ small {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-    display: center;
 }
 
 .col-md-5 {
