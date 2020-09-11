@@ -158,14 +158,15 @@ The project was deployed to GitHub Pages using the following steps:
 6.Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 Making a Local Clone
-Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
+
+1.Log in to GitHub and locate the GitHub Repository
+2.Under the repository name, click "Clone or download".
+3.To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.Open Git Bash.
+5.Change the current working directory to the location where you want the cloned directory to be made.
+6.Type git clone, and then paste the URL you copied in Step 3.
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created.
+7.Press Enter. Your local clone will be created.
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
@@ -173,6 +174,32 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
+<b>Credits</b>
+
+Code
+
+Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, cards, carousels, jumbotrons and sign in page.
+
+Content
+
+All content was written by the developer.
+
+
+Media
+
+Images were taken from Bundoran Surf Co website and social media.
+
+Acknowledgements
+
+My Mentor gave some contructive feedback.
+
+Tutor: Simen Daehli, Anna_ci, Claire_ci.
+
+Alumni:Marcel777.
+
+
+
+Alumni
 
 I had a look over Bundoran's Surfing website :https://bundoransurfco.com/welcome-to-bundoran-surf-mobile/ . It looked crowded and unorganized.
 
