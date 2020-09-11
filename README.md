@@ -6,7 +6,7 @@ This website is user friendly and interactive for surf lovers. It is predictable
 
 | <img src="assets/images/largescreen.png" width="250"> | <img src="assets/images/ipad.png" width="250"> | <img src="assets/images/phone.png" width="250"> 
 
-                       LARGE SCREEN                                             IPAD                                           PHONE
+             LARGE SCREEN                                             IPAD                                           PHONE
 
 
 <b>User Experience(UX)</b>
@@ -68,29 +68,33 @@ CSS3
 
 <b>Frameworks, Libraries & Programs Used</b>
 
-Bootstrap 4.5.x:
+Bootstrap 4.5.x (https://getbootstrap.com/):
 
 Bootstrap was used to assist with the responsiveness and styling of the website, such as: nav bar, carousel image, social jumbotron, cards, testimonials, columns, sign up and sign in.
 
-Google Fonts:
+Google Fonts (https://fonts.google.com/):
 
 Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 
-Font Awesome:
+Font Awesome (https://fontawesome.com/):
 
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-jQuery:
+jQuery (https://jquery.com/):
 
 jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 
-Git:
+Git (https://git-scm.com/):
 
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-GitHub:
+GitHub (https://github.com/MissTechy):
 
 GitHub is used to store the projects code after being pushed from Git.
+
+TinyPNG (https://tinypng.com/0:
+
+Resized images to log faster on website.
 
 <b>Testing</b>
 
