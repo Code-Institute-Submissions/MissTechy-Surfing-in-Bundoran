@@ -1,9 +1,12 @@
 <b>SURFING IN BUNDORAN WEBSITE</b>
 
 View live project here: https://misstechy.github.io/Surfing-in-Bundoran/
+
 This website is user friendly and interactive for surf lovers. It is predictable, clear, responsive and accesible.
 
 | <img src="assets/images/largescreen.png" width="250"> | <img src="assets/images/ipad.png" width="250"> | <img src="assets/images/phone.png" width="250"> 
+
+                       LARGE SCREEN                                             IPAD                                           PHONE
 
 
 <b>User Experience(UX)</b>
@@ -135,11 +138,11 @@ Friends were asked to review the site and documentation to point out any bugs an
 
 <b>Known Bugs</b>
 
-On phone devices the images were oversized.
+1.On phone devices the images were oversized.
 
-The footer was messy because of missing relevant cols.
+2.The footer was messy because of missing relevant cols.
 
-The review cards were uneaven as well as the price cards.
+3.The review cards were uneaven as well as the price cards.
 
 <b>Deployment</b>
 
@@ -161,14 +164,22 @@ The project was deployed to GitHub Pages using the following steps:
 
 <b>Making a Local Clone</b>
 
-1.Log in to GitHub and locate the GitHub Repository
+1.Log in to GitHub and locate the GitHub Repository.
+
 2.Under the repository name, click "Clone or download".
+
 3.To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
 4.Open Git Bash.
+
 5.Change the current working directory to the location where you want the cloned directory to be made.
+
 6.Type git clone, and then paste the URL you copied in Step 3.
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 7.Press Enter. Your local clone will be created.
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
